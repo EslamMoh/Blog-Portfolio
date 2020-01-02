@@ -44,7 +44,7 @@ puts "5 skills created"
           velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
           fugiat quo voluptas nulla pariatur?",
     main_image: "http://placehold.it/600x400",
-    thumb_image: "http://placehold.it/350x20"
+    thumb_image: "http://placehold.it/350x200"
     )
 end
 
