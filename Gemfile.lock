@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/EslamMoh/Copyright-View-Tool
+  revision: 7513aba95ed46d6a42a5b1ea08ad6b75f7a65d08
+  specs:
+    copyright_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -218,6 +224,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
+  copyright_view_tool!
   devise
   friendly_id (~> 5.2.4)
   jbuilder (~> 2.5)

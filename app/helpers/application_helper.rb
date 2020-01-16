@@ -13,4 +13,8 @@ module ApplicationHelper
   def social_source(layout_name)
     content_tag(:p, "Thanks for visiting me from #{session[:source]} and you are on the #{layout_name} layout", class: "source-greeting") if session[:source]
   end
+
+  def copyright_generator
+    CopyrightViewTool::Renderer.copyright('Eslam Mohamed', 'All rights reserved')
+  end
 end
